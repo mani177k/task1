@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+}
+
+@media (max-width: 600px) {
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.plan.featured {
+    background-color: #2ecc71;
+    color: white;
+    transform: scale(1.05);
+    border: 2px solid #27ae60;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.pricing {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+.plan {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.plan:nth-child(2) { background-color: #ff6b6b; } /* Basic Plan */
+.plan:nth-child(3) { background-color: #4ecdc4; } /* Pro Plan */
+.plan:nth-child(4) { background-color: #5567ff; } /* Premium Plan */
+
+button {
+    background-color: #222;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
